@@ -1,0 +1,1944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zuru Computers Enterprise | Computer Training, Repair & Tech Services in Kenya</title>
+<meta name="description" content="Zuru Computers Enterprise offers professional computer training, phone repair, laptop repair, graphic design, printing, and e-citizen services. Enroll today in Nairobi Kenya.">
+<meta name="keywords" content="computer training Kenya, laptop repair Nairobi, Microsoft Office training, phone repair, graphic design, e-citizen services, computer classes Kenya, Zuru Computers">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Zuru Computers Enterprise | Kenya's Trusted Tech Partner">
+<meta property="og:description" content="Learn. Repair. Print. Build. Grow. Professional computer training, repair services, graphic design and more in Kenya.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0a1628">
+<link rel="canonical" href="https://zurucomputers.co.ke/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Zuru Computers Enterprise",
+  "description": "Professional computer training, repair services, graphic design, printing and e-citizen services in Kenya",
+  "telephone": "+254768261851",
+  "email": "Zuricomputersenterprise@gmail.com",
+  "address": {"@type": "PostalAddress", "addressCountry": "KE"},
+  "geo": {"@type": "GeoCoordinates", "latitude": -1.286389, "longitude": 36.817223},
+  "openingHours": "Mo-Sa 08:00-18:00",
+  "priceRange": "KSh",
+  "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5", "reviewCount": "20"}
+}
+</script>
+
+<style>
+:root {
+  --navy: #0a1628;
+  --navy2: #0d1f3c;
+  --blue: #1a56db;
+  --blue2: #2563eb;
+  --cyan: #06b6d4;
+  --gold: #f59e0b;
+  --gold2: #fbbf24;
+  --green: #10b981;
+  --white: #ffffff;
+  --off: #f0f4ff;
+  --gray: #64748b;
+  --light: #e2e8f0;
+  --text: #1e293b;
+  --grad1: linear-gradient(135deg, #0a1628 0%, #1a3a6b 40%, #1a56db 100%);
+  --grad2: linear-gradient(135deg, #1a56db 0%, #06b6d4 100%);
+  --grad3: linear-gradient(135deg, #f59e0b 0%, #ef4444 100%);
+  --grad4: linear-gradient(135deg, #10b981 0%, #1a56db 100%);
+  --grad5: linear-gradient(135deg, #7c3aed 0%, #1a56db 100%);
+  --shadow: 0 20px 60px rgba(10,22,40,0.3);
+  --shadow2: 0 8px 30px rgba(26,86,219,0.25);
+}
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;font-size:16px;}
+body{font-family:'Outfit',sans-serif;background:#fff;color:var(--text);overflow-x:hidden;line-height:1.7;}
+img{max-width:100%;height:auto;display:block;}
+a{text-decoration:none;color:inherit;}
+
+/* SCROLLBAR */
+::-webkit-scrollbar{width:6px;}
+::-webkit-scrollbar-track{background:#0a1628;}
+::-webkit-scrollbar-thumb{background:var(--blue);border-radius:3px;}
+
+/* =========== NAVBAR =========== */
+#navbar{
+  position:fixed;top:0;left:0;width:100%;z-index:1000;
+  background:rgba(10,22,40,0.97);
+  backdrop-filter:blur(20px);
+  border-bottom:1px solid rgba(26,86,219,0.3);
+  transition:all 0.3s ease;
+}
+.nav-inner{
+  max-width:1280px;margin:0 auto;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0.75rem 1.5rem;
+}
+.logo-wrap{display:flex;align-items:center;gap:0.75rem;cursor:pointer;}
+.logo-icon{
+  width:46px;height:46px;
+  background:var(--grad2);
+  border-radius:10px;
+  display:flex;align-items:center;justify-content:center;
+  font-weight:900;font-size:1.2rem;color:#fff;
+  box-shadow:0 4px 15px rgba(26,86,219,0.5);
+  letter-spacing:-1px;
+}
+.logo-text{display:flex;flex-direction:column;line-height:1.1;}
+.logo-name{font-size:1.05rem;font-weight:800;color:#fff;letter-spacing:0.5px;}
+.logo-sub{font-size:0.65rem;color:var(--cyan);font-weight:500;letter-spacing:2px;text-transform:uppercase;}
+
+.nav-links{display:flex;align-items:center;gap:0.25rem;}
+.nav-links a{
+  color:rgba(255,255,255,0.85);font-size:0.875rem;font-weight:500;
+  padding:0.5rem 0.875rem;border-radius:8px;transition:all 0.2s;
+  position:relative;
+}
+.nav-links a:hover,.nav-links a.active{color:#fff;background:rgba(26,86,219,0.25);}
+.nav-links a.active::after{
+  content:'';position:absolute;bottom:2px;left:50%;transform:translateX(-50%);
+  width:16px;height:2px;background:var(--cyan);border-radius:2px;
+}
+
+.nav-cta{
+  background:var(--grad2);color:#fff;padding:0.5rem 1.25rem;
+  border-radius:8px;font-weight:600;font-size:0.875rem;
+  transition:all 0.2s;box-shadow:var(--shadow2);white-space:nowrap;
+}
+.nav-cta:hover{transform:translateY(-1px);box-shadow:0 12px 35px rgba(26,86,219,0.4);}
+
+.hamburger{
+  display:none;flex-direction:column;gap:5px;cursor:pointer;
+  background:none;border:none;padding:8px;
+}
+.hamburger span{width:24px;height:2px;background:#fff;border-radius:2px;transition:all 0.3s;}
+.hamburger.open span:nth-child(1){transform:rotate(45deg) translate(5px,5px);}
+.hamburger.open span:nth-child(2){opacity:0;}
+.hamburger.open span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px);}
+
+.mobile-menu{
+  display:none;position:fixed;top:70px;left:0;width:100%;
+  background:rgba(10,22,40,0.98);backdrop-filter:blur(20px);
+  padding:1rem;border-bottom:1px solid rgba(26,86,219,0.3);
+  z-index:999;flex-direction:column;gap:0.25rem;
+}
+.mobile-menu a{
+  color:rgba(255,255,255,0.85);font-size:0.95rem;font-weight:500;
+  padding:0.75rem 1rem;border-radius:8px;transition:all 0.2s;display:block;
+}
+.mobile-menu a:hover{background:rgba(26,86,219,0.25);color:#fff;}
+.mobile-menu .nav-cta{margin-top:0.5rem;text-align:center;}
+
+/* =========== PAGES =========== */
+.page{display:none;animation:fadeIn 0.4s ease;}
+.page.active{display:block;}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
+
+/* =========== HERO =========== */
+.hero{
+  min-height:100vh;
+  background:var(--navy);
+  position:relative;overflow:hidden;
+  display:flex;align-items:center;
+  padding-top:70px;
+}
+.hero-bg{
+  position:absolute;inset:0;
+  background: radial-gradient(ellipse 80% 60% at 70% 50%, rgba(26,86,219,0.25) 0%, transparent 70%),
+              radial-gradient(ellipse 50% 40% at 20% 80%, rgba(6,182,212,0.15) 0%, transparent 60%),
+              radial-gradient(ellipse 40% 30% at 90% 10%, rgba(245,158,11,0.1) 0%, transparent 50%),
+              linear-gradient(160deg, #060e1f 0%, #0a1628 50%, #0d2147 100%);
+}
+.hero-grid{
+  position:absolute;inset:0;opacity:0.04;
+  background-image:linear-gradient(rgba(255,255,255,0.5) 1px, transparent 1px),
+                   linear-gradient(90deg, rgba(255,255,255,0.5) 1px, transparent 1px);
+  background-size:60px 60px;
+}
+.hero-content{
+  max-width:1280px;margin:0 auto;padding:3rem 1.5rem;
+  display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;
+  position:relative;z-index:2;width:100%;
+}
+.hero-badge{
+  display:inline-flex;align-items:center;gap:0.5rem;
+  background:rgba(26,86,219,0.2);border:1px solid rgba(26,86,219,0.4);
+  color:var(--cyan);padding:0.4rem 1rem;border-radius:50px;
+  font-size:0.8rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;
+  margin-bottom:1.25rem;
+}
+.hero-badge span{width:6px;height:6px;background:var(--cyan);border-radius:50%;animation:pulse 2s infinite;}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1);}50%{opacity:0.5;transform:scale(1.3);}}
+
+.hero h1{
+  font-family:'Playfair Display',serif;
+  font-size:clamp(2.2rem,4.5vw,3.8rem);
+  color:#fff;font-weight:800;line-height:1.15;
+  margin-bottom:1rem;
+}
+.hero h1 em{font-style:normal;color:var(--gold2);}
+.hero-tagline{
+  font-size:1rem;color:rgba(255,255,255,0.65);
+  margin-bottom:1.75rem;font-weight:400;max-width:480px;
+}
+.hero-tagline strong{color:var(--cyan);}
+
+.hero-stats{
+  display:flex;gap:1.5rem;margin-bottom:2rem;flex-wrap:wrap;
+}
+.stat{
+  display:flex;flex-direction:column;
+}
+.stat-num{font-size:1.6rem;font-weight:800;color:#fff;line-height:1;}
+.stat-label{font-size:0.72rem;color:rgba(255,255,255,0.5);font-weight:500;text-transform:uppercase;letter-spacing:0.5px;}
+.stat-num span{color:var(--gold2);}
+
+.hero-btns{display:flex;gap:1rem;flex-wrap:wrap;}
+.btn-primary{
+  background:var(--grad2);color:#fff;padding:0.875rem 2rem;
+  border-radius:10px;font-weight:700;font-size:0.95rem;
+  box-shadow:0 8px 25px rgba(26,86,219,0.4);transition:all 0.3s;
+  display:inline-flex;align-items:center;gap:0.5rem;border:none;cursor:pointer;
+}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 14px 35px rgba(26,86,219,0.5);}
+.btn-secondary{
+  background:transparent;color:#fff;padding:0.875rem 2rem;
+  border-radius:10px;font-weight:600;font-size:0.95rem;
+  border:2px solid rgba(255,255,255,0.25);transition:all 0.3s;
+  display:inline-flex;align-items:center;gap:0.5rem;cursor:pointer;
+}
+.btn-secondary:hover{border-color:var(--cyan);color:var(--cyan);}
+
+/* HERO VISUAL */
+.hero-visual{position:relative;display:flex;align-items:center;justify-content:center;}
+.hero-img-wrap{
+  position:relative;width:100%;max-width:540px;
+  border-radius:20px;overflow:hidden;
+  box-shadow:0 30px 80px rgba(0,0,0,0.5);
+}
+.hero-img-wrap img{width:100%;height:100%;object-fit:cover;display:block;}
+
+.hero-float{
+  position:absolute;background:rgba(255,255,255,0.08);
+  backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,0.12);
+  border-radius:14px;padding:0.875rem 1.1rem;
+  color:#fff;font-size:0.8rem;font-weight:600;
+  box-shadow:0 8px 30px rgba(0,0,0,0.3);
+}
+.hero-float.f1{bottom:-20px;left:-30px;display:flex;align-items:center;gap:0.5rem;}
+.hero-float.f2{top:-15px;right:-25px;text-align:center;}
+.hero-float .fl-icon{font-size:1.4rem;}
+.hero-float .fl-num{font-size:1.2rem;font-weight:800;color:var(--gold2);display:block;}
+
+/* TRUST BAR */
+.trust-bar{
+  background:rgba(26,86,219,0.1);border-top:1px solid rgba(26,86,219,0.15);
+  border-bottom:1px solid rgba(26,86,219,0.15);
+  padding:1.25rem 0;
+}
+.trust-inner{
+  max-width:1280px;margin:0 auto;padding:0 1.5rem;
+  display:flex;align-items:center;justify-content:center;gap:3rem;flex-wrap:wrap;
+}
+.trust-item{
+  display:flex;align-items:center;gap:0.5rem;
+  color:var(--gray);font-size:0.82rem;font-weight:500;
+}
+.trust-item svg{color:var(--cyan);}
+
+/* =========== SECTIONS =========== */
+.section{padding:5rem 0;}
+.section-inner{max-width:1280px;margin:0 auto;padding:0 1.5rem;}
+.section-dark{background:var(--navy);}
+.section-alt{background:var(--off);}
+.section-mid{background:#f8faff;}
+
+.section-label{
+  display:inline-block;color:var(--blue2);font-size:0.75rem;
+  font-weight:700;letter-spacing:2.5px;text-transform:uppercase;
+  margin-bottom:0.75rem;
+}
+.section-title{
+  font-family:'Playfair Display',serif;
+  font-size:clamp(1.7rem,3.5vw,2.6rem);
+  font-weight:800;line-height:1.2;margin-bottom:1rem;
+  color:var(--navy);
+}
+.section-dark .section-title{color:#fff;}
+.section-dark .section-label{color:var(--cyan);}
+.section-sub{color:var(--gray);font-size:0.95rem;max-width:600px;}
+.section-dark .section-sub{color:rgba(255,255,255,0.6);}
+.text-center{text-align:center;margin-left:auto;margin-right:auto;}
+
+/* =========== SERVICES GRID =========== */
+.services-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+  gap:1.5rem;margin-top:3rem;
+}
+.service-card{
+  background:#fff;border-radius:16px;overflow:hidden;
+  border:1px solid rgba(26,86,219,0.1);
+  transition:all 0.3s;
+  box-shadow:0 2px 20px rgba(10,22,40,0.06);
+}
+.service-card:hover{transform:translateY(-5px);box-shadow:0 20px 50px rgba(26,86,219,0.15);border-color:rgba(26,86,219,0.25);}
+.service-card-img{
+  width:100%;height:185px;
+  background:var(--grad1);
+  display:flex;align-items:center;justify-content:center;
+  font-size:3rem;position:relative;overflow:hidden;
+}
+.service-card-img img{width:100%;height:100%;object-fit:cover;}
+.svc-badge{
+  position:absolute;top:10px;right:10px;
+  background:var(--gold);color:#fff;font-size:0.65rem;font-weight:700;
+  padding:0.25rem 0.6rem;border-radius:50px;letter-spacing:0.5px;
+}
+.service-card-body{padding:1.25rem 1.5rem;}
+.service-card-icon{
+  width:48px;height:48px;border-radius:12px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:1.5rem;margin-bottom:0.75rem;
+  background:linear-gradient(135deg,rgba(26,86,219,0.12),rgba(6,182,212,0.08));
+}
+.service-card h3{font-size:1rem;font-weight:700;color:var(--navy);margin-bottom:0.5rem;}
+.service-card p{font-size:0.83rem;color:var(--gray);line-height:1.6;}
+.service-link{
+  display:inline-flex;align-items:center;gap:0.35rem;
+  color:var(--blue2);font-size:0.82rem;font-weight:600;
+  margin-top:0.75rem;transition:gap 0.2s;
+}
+.service-link:hover{gap:0.6rem;}
+
+/* =========== WHY CHOOSE US =========== */
+.why-grid{
+  display:grid;grid-template-columns:1fr 1fr;
+  gap:4rem;align-items:center;margin-top:2rem;
+}
+.why-features{display:flex;flex-direction:column;gap:1.25rem;}
+.why-item{
+  display:flex;gap:1rem;align-items:flex-start;
+  padding:1.25rem;border-radius:12px;
+  background:rgba(255,255,255,0.04);
+  border:1px solid rgba(255,255,255,0.06);
+  transition:all 0.3s;
+}
+.why-item:hover{background:rgba(26,86,219,0.12);border-color:rgba(26,86,219,0.3);}
+.why-icon{
+  width:48px;height:48px;flex-shrink:0;border-radius:12px;
+  background:var(--grad2);display:flex;align-items:center;
+  justify-content:center;font-size:1.4rem;
+  box-shadow:0 4px 15px rgba(26,86,219,0.4);
+}
+.why-item h4{font-size:0.95rem;font-weight:700;color:#fff;margin-bottom:0.3rem;}
+.why-item p{font-size:0.82rem;color:rgba(255,255,255,0.55);}
+.why-visual{position:relative;}
+.why-img-main{
+  border-radius:20px;overflow:hidden;
+  box-shadow:0 25px 70px rgba(0,0,0,0.4);
+}
+.why-stats-row{
+  position:absolute;bottom:-20px;left:-20px;right:-20px;
+  display:flex;gap:1rem;flex-wrap:wrap;
+}
+.why-stat-card{
+  flex:1;min-width:100px;
+  background:rgba(10,22,40,0.9);backdrop-filter:blur(10px);
+  border:1px solid rgba(26,86,219,0.3);border-radius:12px;
+  padding:0.875rem;text-align:center;
+}
+.why-stat-card .num{font-size:1.4rem;font-weight:800;color:var(--gold2);}
+.why-stat-card .lbl{font-size:0.7rem;color:rgba(255,255,255,0.5);font-weight:500;}
+
+/* =========== REVIEWS =========== */
+.reviews-grid{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));
+  gap:1.25rem;margin-top:3rem;
+}
+.review-card{
+  background:#fff;border-radius:14px;padding:1.5rem;
+  border:1px solid rgba(26,86,219,0.1);
+  box-shadow:0 4px 20px rgba(10,22,40,0.06);
+  transition:all 0.3s;
+}
+.review-card:hover{box-shadow:0 12px 40px rgba(26,86,219,0.12);transform:translateY(-3px);}
+.stars{color:var(--gold);font-size:1rem;margin-bottom:0.75rem;letter-spacing:2px;}
+.review-text{font-size:0.88rem;color:var(--gray);line-height:1.7;margin-bottom:1rem;}
+.reviewer{display:flex;align-items:center;gap:0.75rem;}
+.reviewer-avatar{
+  width:40px;height:40px;border-radius:50%;
+  background:var(--grad2);display:flex;align-items:center;justify-content:center;
+  color:#fff;font-weight:700;font-size:0.9rem;flex-shrink:0;
+}
+.reviewer-name{font-size:0.85rem;font-weight:700;color:var(--navy);}
+.reviewer-loc{font-size:0.75rem;color:var(--gray);}
+
+/* =========== TRAINING PAGE =========== */
+.training-hero{
+  background:var(--navy);
+  padding:8rem 0 5rem;
+  position:relative;overflow:hidden;
+}
+.training-hero::before{
+  content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse 70% 60% at 60% 50%,rgba(26,86,219,0.3) 0%,transparent 70%);
+}
+.training-hero-content{
+  position:relative;z-index:2;
+  max-width:1280px;margin:0 auto;padding:0 1.5rem;
+  display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;
+}
+.training-img-grid{
+  display:grid;grid-template-columns:1fr 1fr;gap:1rem;
+}
+.training-img-grid .ti-img{
+  border-radius:12px;overflow:hidden;
+  background:linear-gradient(135deg,#1a3a6b,#1a56db);
+  aspect-ratio:1;
+  display:flex;align-items:center;justify-content:center;
+}
+.training-img-grid .ti-img img{width:100%;height:100%;object-fit:cover;}
+.training-img-grid .ti-img:first-child{grid-column:span 2;aspect-ratio:2/1;}
+
+.courses-accordion{margin-top:2rem;}
+.acc-item{
+  border:1px solid rgba(26,86,219,0.15);border-radius:12px;
+  margin-bottom:0.75rem;overflow:hidden;background:#fff;
+}
+.acc-header{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:1rem 1.25rem;cursor:pointer;font-weight:600;
+  font-size:0.93rem;color:var(--navy);transition:all 0.2s;
+  background:none;border:none;width:100%;text-align:left;
+}
+.acc-header:hover{background:rgba(26,86,219,0.04);}
+.acc-header .acc-icon{
+  width:32px;height:32px;border-radius:8px;
+  background:var(--grad2);display:flex;align-items:center;
+  justify-content:center;font-size:1rem;margin-right:0.75rem;
+  flex-shrink:0;
+}
+.acc-header .acc-arrow{
+  font-size:1.2rem;color:var(--blue2);transition:transform 0.3s;flex-shrink:0;
+}
+.acc-item.open .acc-arrow{transform:rotate(180deg);}
+.acc-body{
+  max-height:0;overflow:hidden;transition:max-height 0.4s ease;
+}
+.acc-item.open .acc-body{max-height:400px;}
+.acc-list{
+  padding:0 1.25rem 1rem;
+  display:grid;grid-template-columns:1fr 1fr;gap:0.35rem;
+}
+.acc-list li{
+  list-style:none;font-size:0.82rem;color:var(--gray);
+  display:flex;align-items:center;gap:0.4rem;
+}
+.acc-list li::before{content:'✓';color:var(--green);font-weight:700;font-size:0.9rem;}
+
+/* PRICING CARDS */
+.pricing-grid{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
+  gap:1.5rem;margin-top:3rem;
+}
+.pricing-card{
+  border-radius:16px;overflow:hidden;
+  border:2px solid rgba(26,86,219,0.15);
+  background:#fff;transition:all 0.3s;
+  position:relative;
+}
+.pricing-card:hover{transform:translateY(-5px);box-shadow:var(--shadow2);}
+.pricing-card.featured{border-color:var(--blue2);box-shadow:var(--shadow2);}
+.pricing-top{padding:1.75rem 1.5rem;background:var(--off);}
+.pricing-card.featured .pricing-top{background:var(--grad1);}
+.popular-badge{
+  position:absolute;top:15px;right:15px;
+  background:var(--gold);color:#fff;font-size:0.65rem;
+  font-weight:700;padding:0.25rem 0.6rem;border-radius:50px;
+}
+.pricing-icon{font-size:2rem;margin-bottom:0.75rem;}
+.pricing-name{font-size:1rem;font-weight:700;color:var(--navy);margin-bottom:0.25rem;}
+.pricing-card.featured .pricing-name{color:#fff;}
+.pricing-desc{font-size:0.8rem;color:var(--gray);}
+.pricing-card.featured .pricing-desc{color:rgba(255,255,255,0.6);}
+.pricing-body{padding:1.5rem;}
+.pricing-features li{
+  list-style:none;font-size:0.85rem;color:var(--gray);
+  padding:0.4rem 0;border-bottom:1px solid rgba(0,0,0,0.05);
+  display:flex;align-items:center;gap:0.5rem;
+}
+.pricing-features li:last-child{border:none;}
+.pricing-features li::before{content:'✓';color:var(--green);font-weight:700;}
+.pricing-cta{
+  display:block;text-align:center;
+  background:var(--grad2);color:#fff;
+  padding:0.75rem;border-radius:10px;
+  font-weight:700;font-size:0.9rem;
+  margin-top:1.25rem;transition:all 0.2s;
+}
+.pricing-cta:hover{opacity:0.9;transform:translateY(-1px);}
+
+/* =========== SERVICES PAGE =========== */
+.service-category{margin-bottom:4rem;}
+.service-category-header{
+  display:flex;align-items:center;gap:1rem;
+  margin-bottom:1.5rem;padding-bottom:1rem;
+  border-bottom:2px solid rgba(26,86,219,0.1);
+}
+.cat-icon{
+  width:56px;height:56px;border-radius:14px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:1.75rem;box-shadow:0 4px 15px rgba(26,86,219,0.3);
+}
+.cat-title{font-family:'Playfair Display',serif;font-size:1.4rem;font-weight:700;color:var(--navy);}
+.cat-count{font-size:0.8rem;color:var(--gray);}
+.service-sub-grid{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+  gap:0.75rem;
+}
+.service-sub-item{
+  background:#fff;border:1px solid rgba(26,86,219,0.1);
+  border-radius:10px;padding:0.875rem 1rem;
+  font-size:0.85rem;font-weight:500;color:var(--text);
+  transition:all 0.2s;display:flex;align-items:center;gap:0.5rem;
+}
+.service-sub-item:hover{background:rgba(26,86,219,0.05);border-color:var(--blue2);color:var(--blue2);}
+.service-sub-item::before{content:'→';color:var(--blue2);font-weight:700;}
+
+/* =========== CONTACT / FORMS =========== */
+.contact-grid{display:grid;grid-template-columns:1fr 1.6fr;gap:3rem;margin-top:3rem;}
+.contact-info{display:flex;flex-direction:column;gap:1.25rem;}
+.contact-card{
+  background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);
+  border-radius:14px;padding:1.5rem;
+}
+.contact-card h4{color:#fff;font-size:1rem;font-weight:700;margin-bottom:0.75rem;}
+.contact-detail{
+  display:flex;align-items:center;gap:0.75rem;
+  padding:0.625rem 0;border-bottom:1px solid rgba(255,255,255,0.06);
+  font-size:0.875rem;color:rgba(255,255,255,0.7);
+}
+.contact-detail:last-child{border:none;}
+.contact-detail .cd-icon{font-size:1.2rem;flex-shrink:0;}
+
+.form-card{
+  background:#fff;border-radius:16px;padding:2.5rem;
+  box-shadow:0 20px 60px rgba(10,22,40,0.15);
+}
+.form-title{font-size:1.25rem;font-weight:700;color:var(--navy);margin-bottom:0.5rem;}
+.form-sub{font-size:0.85rem;color:var(--gray);margin-bottom:1.75rem;}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1rem;}
+.form-group{margin-bottom:1rem;}
+.form-group label{font-size:0.82rem;font-weight:600;color:var(--navy);display:block;margin-bottom:0.4rem;}
+.form-group input,.form-group select,.form-group textarea{
+  width:100%;border:2px solid rgba(26,86,219,0.15);border-radius:10px;
+  padding:0.75rem 1rem;font-size:0.88rem;font-family:'Outfit',sans-serif;
+  color:var(--text);background:#fff;transition:all 0.2s;outline:none;
+}
+.form-group input:focus,.form-group select:focus,.form-group textarea:focus{
+  border-color:var(--blue2);box-shadow:0 0 0 3px rgba(26,86,219,0.1);
+}
+.form-group textarea{resize:vertical;min-height:110px;}
+.form-submit{
+  width:100%;background:var(--grad2);color:#fff;
+  padding:0.95rem;border-radius:10px;border:none;cursor:pointer;
+  font-size:0.95rem;font-weight:700;font-family:'Outfit',sans-serif;
+  transition:all 0.3s;letter-spacing:0.3px;
+}
+.form-submit:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(26,86,219,0.4);}
+
+/* =========== DOWNLOAD SECTION =========== */
+.download-section{
+  background:var(--grad1);border-radius:20px;
+  padding:2.5rem;margin-bottom:3rem;
+  display:flex;align-items:center;justify-content:space-between;
+  gap:2rem;flex-wrap:wrap;
+}
+.dl-text h3{font-size:1.3rem;font-weight:800;color:#fff;margin-bottom:0.5rem;}
+.dl-text p{font-size:0.85rem;color:rgba(255,255,255,0.7);}
+.dl-btn{
+  background:var(--gold);color:#fff;padding:0.875rem 2rem;
+  border-radius:10px;font-weight:700;font-size:0.9rem;
+  white-space:nowrap;transition:all 0.3s;
+  display:flex;align-items:center;gap:0.5rem;flex-shrink:0;
+  box-shadow:0 8px 25px rgba(245,158,11,0.4);
+}
+.dl-btn:hover{transform:translateY(-2px);background:#e5870a;}
+
+/* =========== FAQ =========== */
+.faq-list{margin-top:2.5rem;display:flex;flex-direction:column;gap:0.75rem;max-width:800px;margin-left:auto;margin-right:auto;}
+.faq-item{
+  border:1px solid rgba(26,86,219,0.15);border-radius:12px;overflow:hidden;background:#fff;
+}
+.faq-q{
+  width:100%;text-align:left;background:none;border:none;cursor:pointer;
+  display:flex;justify-content:space-between;align-items:center;
+  padding:1.1rem 1.25rem;font-weight:600;font-size:0.93rem;color:var(--navy);
+  transition:background 0.2s;
+}
+.faq-q:hover{background:rgba(26,86,219,0.04);}
+.faq-q .faq-arrow{color:var(--blue2);font-size:1.2rem;transition:transform 0.3s;flex-shrink:0;}
+.faq-item.open .faq-arrow{transform:rotate(180deg);}
+.faq-a{max-height:0;overflow:hidden;transition:max-height 0.4s ease;}
+.faq-item.open .faq-a{max-height:300px;}
+.faq-a p{padding:0 1.25rem 1.1rem;font-size:0.87rem;color:var(--gray);line-height:1.75;}
+
+/* =========== FLOATING CONTACTS =========== */
+.float-contacts{
+  position:fixed;right:1.25rem;bottom:1.5rem;
+  display:flex;flex-direction:column;gap:0.625rem;
+  z-index:900;
+}
+.fc-btn{
+  width:54px;height:54px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-size:1.5rem;cursor:pointer;
+  transition:all 0.35s cubic-bezier(0.34,1.56,0.64,1);
+  box-shadow:0 4px 20px rgba(0,0,0,0.25);
+  border:none;text-decoration:none;
+  position:relative;overflow:hidden;
+}
+.fc-btn::before{
+  content:'';position:absolute;inset:0;border-radius:50%;
+  background:inherit;filter:blur(8px);opacity:0.5;transform:scale(0.9);
+  z-index:-1;transition:all 0.3s;
+}
+.fc-btn:hover{transform:scale(1.12);box-shadow:0 8px 30px rgba(0,0,0,0.35);}
+.fc-btn:hover::before{opacity:0.7;transform:scale(1.1);}
+.fc-btn.whatsapp{background:linear-gradient(135deg,#25d366,#128c7e);}
+.fc-btn.gmail{background:linear-gradient(135deg,#ea4335,#fbbc04);}
+.fc-btn.phone{background:linear-gradient(135deg,#1a56db,#06b6d4);}
+
+/* SCROLLED STATE - dots on scroll */
+.float-contacts.scrolled .fc-btn{
+  width:14px;height:14px;font-size:0;border-radius:50%;
+  opacity:0.75;
+}
+.float-contacts.scrolled .fc-btn:hover{
+  width:44px;height:44px;font-size:1.3rem;opacity:1;
+}
+
+/* =========== FOOTER =========== */
+footer{
+  background:linear-gradient(160deg,#060e1f 0%,#0a1628 50%,#0d2147 100%);
+  border-top:1px solid rgba(26,86,219,0.2);
+  padding:4rem 0 0;
+}
+.footer-inner{max-width:1280px;margin:0 auto;padding:0 1.5rem;}
+.footer-top{
+  display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:3rem;
+  margin-bottom:3rem;
+}
+.footer-brand .logo-wrap{margin-bottom:1rem;}
+.footer-brand p{font-size:0.83rem;color:rgba(255,255,255,0.5);line-height:1.7;max-width:280px;}
+.footer-socials{display:flex;gap:0.75rem;margin-top:1.25rem;}
+.fsoc{
+  width:36px;height:36px;border-radius:8px;
+  background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.1);
+  display:flex;align-items:center;justify-content:center;
+  font-size:1rem;color:rgba(255,255,255,0.7);
+  transition:all 0.2s;text-decoration:none;
+}
+.fsoc:hover{background:rgba(26,86,219,0.4);color:#fff;border-color:var(--blue2);}
+.footer-col h5{
+  color:#fff;font-size:0.85rem;font-weight:700;
+  text-transform:uppercase;letter-spacing:1.5px;margin-bottom:1.25rem;
+}
+.footer-col ul{list-style:none;}
+.footer-col ul li{margin-bottom:0.6rem;}
+.footer-col ul li a{
+  font-size:0.83rem;color:rgba(255,255,255,0.5);transition:color 0.2s;
+}
+.footer-col ul li a:hover{color:var(--cyan);}
+.footer-bottom{
+  border-top:1px solid rgba(255,255,255,0.07);
+  padding:1.5rem 0;
+  display:flex;align-items:center;justify-content:space-between;
+  flex-wrap:wrap;gap:1rem;
+}
+.footer-copy{font-size:0.78rem;color:rgba(255,255,255,0.35);}
+.footer-badges{display:flex;gap:1rem;align-items:center;}
+.badge-ssl{
+  display:flex;align-items:center;gap:0.4rem;
+  background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.2);
+  padding:0.35rem 0.75rem;border-radius:50px;
+  font-size:0.72rem;color:var(--green);font-weight:600;
+}
+
+/* =========== ABOUT PAGE =========== */
+.about-hero{
+  background:var(--navy);padding:8rem 0 5rem;position:relative;overflow:hidden;
+}
+.about-hero::before{
+  content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse 60% 50% at 30% 60%,rgba(6,182,212,0.15) 0%,transparent 70%);
+}
+.mission-grid{
+  display:grid;grid-template-columns:1fr 1fr;gap:3rem;margin-top:3rem;
+}
+.mission-card{
+  background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);
+  border-radius:16px;padding:2rem;
+}
+.mission-card h3{color:#fff;font-size:1.1rem;font-weight:700;margin-bottom:1rem;display:flex;align-items:center;gap:0.75rem;}
+.mission-card p{font-size:0.88rem;color:rgba(255,255,255,0.6);line-height:1.8;}
+
+.team-grid{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+  gap:1.5rem;margin-top:3rem;
+}
+.team-card{
+  background:#fff;border-radius:14px;overflow:hidden;
+  border:1px solid rgba(26,86,219,0.1);text-align:center;
+  transition:all 0.3s;
+}
+.team-card:hover{transform:translateY(-4px);box-shadow:var(--shadow2);}
+.team-img{
+  width:100%;aspect-ratio:1;
+  background:var(--grad1);
+  display:flex;align-items:center;justify-content:center;
+  font-size:3rem;
+}
+.team-img img{width:100%;height:100%;object-fit:cover;}
+.team-info{padding:1.25rem;}
+.team-info h4{font-size:0.95rem;font-weight:700;color:var(--navy);}
+.team-info p{font-size:0.8rem;color:var(--gray);}
+
+/* =========== PORTFOLIO =========== */
+.portfolio-grid{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+  gap:1.25rem;margin-top:3rem;
+}
+.portfolio-item{
+  border-radius:14px;overflow:hidden;position:relative;
+  aspect-ratio:4/3;background:var(--grad1);
+  cursor:pointer;
+}
+.portfolio-item img{width:100%;height:100%;object-fit:cover;}
+.portfolio-overlay{
+  position:absolute;inset:0;background:linear-gradient(to top,rgba(10,22,40,0.9),transparent 50%);
+  display:flex;flex-direction:column;justify-content:flex-end;
+  padding:1.25rem;transform:translateY(20px);opacity:0;
+  transition:all 0.35s;
+}
+.portfolio-item:hover .portfolio-overlay{transform:translateY(0);opacity:1;}
+.portfolio-overlay h4{color:#fff;font-size:0.95rem;font-weight:700;}
+.portfolio-overlay p{font-size:0.78rem;color:rgba(255,255,255,0.7);}
+
+/* =========== MOBILE RESPONSIVE =========== */
+@media (max-width: 1024px) {
+  .footer-top{grid-template-columns:1fr 1fr;}
+  .why-grid{grid-template-columns:1fr;}
+  .why-visual{order:-1;}
+  .hero-content{grid-template-columns:1fr;gap:2.5rem;text-align:center;}
+  .hero-btns{justify-content:center;}
+  .hero-stats{justify-content:center;}
+  .training-hero-content{grid-template-columns:1fr;}
+  .mission-grid{grid-template-columns:1fr;}
+  .contact-grid{grid-template-columns:1fr;}
+}
+@media (max-width: 768px) {
+  .nav-links,.nav-cta{display:none;}
+  .hamburger{display:flex;}
+  .hero{padding-top:60px;}
+  .hero h1{font-size:2rem;}
+  .hero-float{display:none;}
+  .services-grid{grid-template-columns:1fr;}
+  .form-row{grid-template-columns:1fr;}
+  .footer-top{grid-template-columns:1fr;}
+  .footer-bottom{flex-direction:column;text-align:center;}
+  .why-stats-row{position:static;margin-top:1rem;}
+  .acc-list{grid-template-columns:1fr;}
+  .download-section{flex-direction:column;}
+  .trust-inner{gap:1.25rem;}
+}
+@media (max-width: 480px) {
+  .section{padding:3rem 0;}
+  .section-inner{padding:0 1rem;}
+  .service-sub-grid{grid-template-columns:1fr 1fr;}
+  .reviews-grid{grid-template-columns:1fr;}
+  .pricing-grid{grid-template-columns:1fr;}
+  .float-contacts{right:0.75rem;bottom:1rem;}
+}
+
+/* MOBILE CONTACT ICONS ANIMATION */
+@media (max-width: 768px) {
+  .float-contacts{
+    flex-direction:row;
+    right:50%;transform:translateX(50%);
+    bottom:1rem;
+  }
+  .float-contacts.scrolled .fc-btn{
+    width:12px;height:12px;
+    opacity:0.6;
+  }
+  .float-contacts.scrolled .fc-btn:hover{
+    width:46px;height:46px;
+    opacity:1;
+  }
+}
+
+/* =========== CERT SECTION =========== */
+.cert-section{
+  background:var(--grad1);padding:4rem 0;text-align:center;
+}
+.cert-inner{max-width:700px;margin:0 auto;padding:0 1.5rem;}
+.cert-icon{font-size:4rem;margin-bottom:1rem;}
+.cert-section h2{font-family:'Playfair Display',serif;font-size:2rem;color:#fff;margin-bottom:1rem;}
+.cert-section p{color:rgba(255,255,255,0.7);font-size:0.95rem;margin-bottom:2rem;}
+.cert-badge{
+  display:inline-flex;align-items:center;gap:0.75rem;
+  background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);
+  padding:0.875rem 2rem;border-radius:50px;color:#fff;font-weight:600;
+}
+.cert-badge span{font-size:1.5rem;}
+
+/* =========== MOBILE TECH GRID =========== */
+.mobile-tech-grid{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
+  gap:1.25rem;margin-top:2.5rem;
+}
+.mt-card{
+  border-radius:14px;overflow:hidden;
+  border:1px solid rgba(26,86,219,0.1);
+  background:#fff;transition:all 0.3s;
+}
+.mt-card:hover{transform:translateY(-4px);box-shadow:var(--shadow2);}
+.mt-img{
+  width:100%;height:165px;
+  background:linear-gradient(135deg,#0a1628,#1a56db);
+  display:flex;align-items:center;justify-content:center;
+}
+.mt-img img{width:100%;height:100%;object-fit:cover;}
+.mt-body{padding:1rem 1.25rem;}
+.mt-body h4{font-size:0.93rem;font-weight:700;color:var(--navy);margin-bottom:0.3rem;}
+.mt-body p{font-size:0.8rem;color:var(--gray);}
+
+/* ENROLL BANNER */
+.enroll-banner{
+  background:var(--navy);padding:4rem 0;
+}
+.enroll-inner{
+  max-width:800px;margin:0 auto;padding:0 1.5rem;
+  text-align:center;
+}
+.enroll-inner h2{font-family:'Playfair Display',serif;font-size:2.2rem;color:#fff;margin-bottom:1rem;}
+.enroll-inner p{color:rgba(255,255,255,0.6);font-size:0.95rem;margin-bottom:2rem;}
+.enroll-btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;}
+.btn-gold{
+  background:linear-gradient(135deg,#f59e0b,#ef4444);
+  color:#fff;padding:0.875rem 2.5rem;border-radius:10px;
+  font-weight:700;font-size:0.95rem;transition:all 0.3s;
+  display:inline-flex;align-items:center;gap:0.5rem;
+  box-shadow:0 8px 25px rgba(245,158,11,0.35);
+}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 14px 35px rgba(245,158,11,0.5);}
+
+/* SUCCESS MESSAGE */
+.form-success{
+  display:none;text-align:center;padding:2rem;
+}
+.form-success .success-icon{font-size:3rem;margin-bottom:0.75rem;}
+.form-success h4{color:var(--navy);font-size:1.1rem;margin-bottom:0.5rem;}
+.form-success p{color:var(--gray);font-size:0.88rem;}
+</style>
+</head>
+<body>
+
+<nav id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <div class="logo-wrap" onclick="showPage('home')">
+      <div class="logo-icon" style="background:transparent;box-shadow:none;"><img src="images/logo.png" alt="Zuru Computers" style="width:100%;height:100%;object-fit:contain;"></div>
+      <div class="logo-text">
+        <span class="logo-name">ZURU COMPUTERS</span>
+        <span class="logo-sub">Enterprise</span>
+      </div>
+    </div>
+    <div class="nav-links">
+      <a href="#" onclick="showPage('home')" class="active" id="nav-home">Home</a>
+      <a href="#" onclick="showPage('services')" id="nav-services">Services</a>
+      <a href="#" onclick="showPage('training')" id="nav-training">Training</a>
+      <a href="#" onclick="showPage('about')" id="nav-about">About Us</a>
+      <a href="#" onclick="showPage('contact')" id="nav-contact">Contact</a>
+    </div>
+    <a href="#" onclick="showPage('contact')" class="nav-cta">📋 Enroll Now</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#" onclick="showPage('home');closeMobile()">🏠 Home</a>
+  <a href="#" onclick="showPage('services');closeMobile()">🛠️ Services</a>
+  <a href="#" onclick="showPage('training');closeMobile()">🎓 Training</a>
+  <a href="#" onclick="showPage('about');closeMobile()">ℹ️ About Us</a>
+  <a href="#" onclick="showPage('contact');closeMobile()">📬 Contact</a>
+  <a href="#" onclick="showPage('contact');closeMobile()" class="nav-cta">📋 Enroll Now</a>
+</div>
+
+<div class="float-contacts" id="floatContacts">
+  <a href="https://wa.me/254768261851" target="_blank" rel="noopener noreferrer" class="fc-btn whatsapp" title="WhatsApp Us" aria-label="WhatsApp">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" style="color:#fff">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+  <a href="mailto:Zuricomputersenterprise@gmail.com" class="fc-btn gmail" title="Email Us" aria-label="Gmail">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style="color:#fff">
+      <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+    </svg>
+  </a>
+  <a href="tel:+254768261851" class="fc-btn phone" title="Call Us" aria-label="Phone Call">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#fff">
+      <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 .9h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.37a16 16 0 006 6l.83-.83a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+    </svg>
+  </a>
+</div>
+
+<div class="page active" id="page-home">
+
+  <section class="hero" aria-label="Hero banner">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-content">
+      <div class="hero-left">
+        <div class="hero-badge"><span></span>Kenya's Trusted Tech Partner</div>
+        <h1>Learn. Repair.<br><em>Build. Grow.</em></h1>
+        <p class="hero-tagline">
+          Professional computer training, phone repair, graphic design, and digital services.
+          <strong>Empowering Kenyans</strong> with practical tech skills since day one.
+        </p>
+        <div class="hero-stats">
+          <div class="stat"><span class="stat-num">500<span>+</span></span><span class="stat-label">Students Trained</span></div>
+          <div class="stat"><span class="stat-num">10<span>+</span></span><span class="stat-label">Services Offered</span></div>
+          <div class="stat"><span class="stat-num">5<span>⭐</span></span><span class="stat-label">Star Rating</span></div>
+          <div class="stat"><span class="stat-num">100<span>%</span></span><span class="stat-label">Certified</span></div>
+        </div>
+        <div class="hero-btns">
+          <button class="btn-primary" onclick="showPage('contact')">📋 Enroll Now</button>
+          <button class="btn-secondary" onclick="showPage('services')">🛠️ Our Services</button>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-img-wrap">
+          <img src="images/1. COMPUTER TRAINING HERO SECTION.png" alt="Computer Training Hero Section">
+        </div>
+        <div class="hero-float f1">
+          <span class="fl-icon">🎓</span>
+          <div><span class="fl-num">500+</span>Students Graduated</div>
+        </div>
+        <div class="hero-float f2">
+          <span class="fl-num">⭐⭐⭐⭐⭐</span>
+          <div>Top Rated in Kenya</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="trust-bar">
+    <div class="trust-inner">
+      <div class="trust-item"><svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg> Certified Training</div>
+      <div class="trust-item"><svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0"/></svg> Expert Instructors</div>
+      <div class="trust-item"><svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg> Affordable Fees</div>
+      <div class="trust-item"><svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg> Certificate on Completion</div>
+      <div class="trust-item"><svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg> Phone & Computer Repair</div>
+    </div>
+  </div>
+
+  <section class="section" style="padding-bottom:0;">
+    <div class="section-inner">
+      <div class="download-section">
+        <div class="dl-text">
+          <h3>📄 Download Admission Requirements</h3>
+          <p>Get all the information you need to enroll in our training programs. Requirements are simple and straightforward.</p>
+        </div>
+        <a href="#" class="dl-btn" onclick="downloadAdmission(event)">⬇️ Download PDF</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-mid" aria-labelledby="services-heading">
+    <div class="section-inner">
+      <div class="text-center">
+        <span class="section-label">What We Offer</span>
+        <h2 class="section-title" id="services-heading">All Our Services in One Place</h2>
+        <p class="section-sub text-center">From computer training to phone repair, graphic design to e-citizen services — we have you covered.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-card-img" style="background:linear-gradient(135deg,#0a1628,#1a56db);">
+            <img src="images/2. COMPUTER TRAINING CLASSROOM.png" alt="Computer Training Classroom">
+          </div>
+          <div class="service-card-body">
+            <div class="service-card-icon">🎓</div>
+            <h3>Computer Training Courses</h3>
+            <p>Microsoft Office, Graphic Design, Internet Skills, Typing & more. All levels welcome.</p>
+            <a href="#" class="service-link" onclick="showPage('training')">Learn More →</a>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-card-img" style="background:linear-gradient(135deg,#1a3a6b,#ef4444);">
+            <img src="images/10. COMPUTER REPAIR HERO SECTION.png" alt="Computer Repair">
+          </div>
+          <div class="service-card-body">
+            <div class="service-card-icon">🔧</div>
+            <h3>Computer & Phone Repair</h3>
+            <p>Laptop & desktop repair, virus removal, software installation, and hardware replacement.</p>
+            <a href="#" class="service-link" onclick="showPage('services')">Learn More →</a>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-card-img" style="background:linear-gradient(135deg,#134e4a,#10b981);">
+            <img src="images/17. PRINTING SERVICES SECTION.png" alt="Printing Services">
+          </div>
+          <div class="service-card-body">
+            <div class="service-card-icon">🖨️</div>
+            <h3>Printing & Document Services</h3>
+            <p>B&W and colour printing, passport photos, scanning, lamination, binding, and more.</p>
+            <a href="#" class="service-link" onclick="showPage('services')">Learn More →</a>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-card-img" style="background:linear-gradient(135deg,#4c1d95,#7c3aed);">
+            <img src="images/9. GRAPHIC DESIGN TRAINING.png" alt="Graphic Design">
+            <span class="svc-badge">Popular</span>
+          </div>
+          <div class="service-card-body">
+            <div class="service-card-icon">🎨</div>
+            <h3>Graphic Design Services</h3>
+            <p>Logos, posters, flyers, business cards, social media designs and brochures.</p>
+            <a href="#" class="service-link" onclick="showPage('services')">Learn More →</a>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-card-img" style="background:linear-gradient(135deg,#065f46,#059669);">
+            <img src="images/21. E-CITIZEN SERVICES.png" alt="E-Citizen Services">
+          </div>
+          <div class="service-card-body">
+            <div class="service-card-icon">🏛️</div>
+            <h3>E-Citizen & Government Help</h3>
+            <p>KRA PIN, HELB, SHA registration, e-Citizen registration, certificates and online applications.</p>
+            <a href="#" class="service-link" onclick="showPage('services')">Learn More →</a>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-card-img" style="background:linear-gradient(135deg,#1e3a5f,#1a56db);">
+            <img src="images/23. WEBSITE DEVELOPMENT HERO.png" alt="Website Development">
+            <span class="svc-badge">New</span>
+          </div>
+          <div class="service-card-body">
+            <div class="service-card-icon">🌐</div>
+            <h3>Website Development</h3>
+            <p>Business, portfolio, e-commerce websites with SEO setup and Google ranking optimization.</p>
+            <a href="#" class="service-link" onclick="showPage('services')">Learn More →</a>
+          </div>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:2.5rem;">
+        <button class="btn-primary" onclick="showPage('services')">View All Services →</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark" aria-labelledby="why-heading">
+    <div class="section-inner">
+      <div class="why-grid">
+        <div class="why-text">
+          <span class="section-label">Why Choose Us</span>
+          <h2 class="section-title" id="why-heading">Your Success is Our Mission</h2>
+          <p class="section-sub">We are not just a computer shop — we are a community that cares about your growth.</p>
+          <div class="why-features" style="margin-top:2rem;">
+            <div class="why-item">
+              <div class="why-icon">🏆</div>
+              <div><h4>Certified & Experienced Trainers</h4><p>Our trainers are qualified professionals with real-world experience who guide every student personally.</p></div>
+            </div>
+            <div class="why-item">
+              <div class="why-icon">💰</div>
+              <div><h4>Very Affordable Pricing</h4><p>We offer quality training and services at prices every Kenyan can afford. No hidden costs.</p></div>
+            </div>
+            <div class="why-item">
+              <div class="why-icon">📜</div>
+              <div><h4>Recognized Certificates</h4><p>Complete your course and receive a certificate that employers and institutions recognize.</p></div>
+            </div>
+            <div class="why-item">
+              <div class="why-icon">🤝</div>
+              <div><h4>One-on-One Support</h4><p>Every student gets personal attention. We make sure you truly understand what you learn.</p></div>
+            </div>
+            <div class="why-item">
+              <div class="why-icon">⚡</div>
+              <div><h4>Fast & Reliable Repair Services</h4><p>We fix your laptop, desktop or phone quickly and professionally. Same-day service available.</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="why-visual">
+          <div class="why-img-main">
+            <img src="images/27. WHY CHOOSE US SECTION.png" alt="Why Choose Us" style="width:100%;height:100%;object-fit:cover;aspect-ratio:4/3;">
+          </div>
+          <div class="why-stats-row" style="margin-top:1.25rem;">
+            <div class="why-stat-card"><div class="num">500+</div><div class="lbl">Happy Students</div></div>
+            <div class="why-stat-card"><div class="num">10+</div><div class="lbl">Services</div></div>
+            <div class="why-stat-card"><div class="num">5⭐</div><div class="lbl">Rating</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cert-section">
+    <div class="cert-inner">
+      <div class="cert-icon">🎓</div>
+      <h2>Training Certification Program</h2>
+      <p>Every student who completes our training program earns a certificate. Our certificates are recognized by employers and institutions across Kenya. Build your skills and prove it.</p>
+      <div class="cert-badge"><span>🏅</span> Official Certificate on Completion</div>
+    </div>
+  </div>
+
+  <section class="section section-alt" aria-labelledby="reviews-heading">
+    <div class="section-inner">
+      <div class="text-center">
+        <span class="section-label">Student Reviews</span>
+        <h2 class="section-title" id="reviews-heading">What Kenyans Say About Us ⭐⭐⭐⭐⭐</h2>
+        <p class="section-sub text-center">Over 20 real reviews from our students and customers across Kenya.</p>
+      </div>
+      <div class="reviews-grid" id="reviewsGrid"></div>
+    </div>
+  </section>
+
+  <div class="enroll-banner">
+    <div class="enroll-inner">
+      <h2>Ready to Start Your Journey?</h2>
+      <p>Enroll in our training programs today or book a repair service. We are here to help you every step of the way.</p>
+      <div class="enroll-btns">
+        <button class="btn-gold" onclick="showPage('contact')">📋 Enroll for Training</button>
+        <a href="https://wa.me/254768261851" target="_blank" class="btn-secondary" style="color:#fff;border:2px solid rgba(255,255,255,0.3);">💬 WhatsApp Us</a>
+      </div>
+    </div>
+  </div>
+
+  <section class="section section-mid" aria-labelledby="mobile-heading">
+    <div class="section-inner">
+      <div class="text-center">
+        <span class="section-label">Mobile Tech Support</span>
+        <h2 class="section-title" id="mobile-heading">Phone Accessories & Repair Services</h2>
+        <p class="section-sub text-center">We sell quality phone accessories and offer professional phone repair services.</p>
+      </div>
+      <div class="mobile-tech-grid">
+        <div class="mt-card">
+          <div class="mt-img" style="background:linear-gradient(135deg,#1a3a6b,#1a56db);">
+            <img src="images/Phone Screen Repair.png" alt="Mobile Tech Support" style="width:100%;height:100%;object-fit:cover;">
+          </div>
+          <div class="mt-body"><h4>Phone Screen Repair</h4><p>Cracked or broken screens replaced quickly and professionally.</p></div>
+        </div>
+        <div class="mt-card">
+          <div class="mt-img" style="background:linear-gradient(135deg,#065f46,#10b981);">
+            <img src="images/Battery Replacement.png" alt="Mobile Tech Support" style="width:100%;height:100%;object-fit:cover;">
+          </div>
+          <div class="mt-body"><h4>Battery Replacement</h4><p>Phone battery draining fast? We replace it with quality batteries.</p></div>
+        </div>
+        <div class="mt-card">
+          <div class="mt-img" style="background:linear-gradient(135deg,#4c1d95,#7c3aed);">
+            <img src="images/Software & Flashing.png" alt="Mobile Tech Support" style="width:100%;height:100%;object-fit:cover;">
+          </div>
+          <div class="mt-body"><h4>Software & Flashing</h4><p>Phone software issues, flashing and troubleshooting handled with care.</p></div>
+        </div>
+        <div class="mt-card">
+          <div class="mt-img" style="background:linear-gradient(135deg,#7c2d12,#ea580c);">
+            <img src="images/Phone Accessories.png" alt="Mobile Tech Support" style="width:100%;height:100%;object-fit:cover;">
+          </div>
+          <div class="mt-body"><h4>Phone Accessories</h4><p>Cases, chargers, earphones, screen protectors and more at great prices.</p></div>
+        </div>
+        <div class="mt-card">
+          <div class="mt-img" style="background:linear-gradient(135deg,#1e3a5f,#0891b2);">
+            <img src="images/Charging Port Repair.png" alt="Mobile Tech Support" style="width:100%;height:100%;object-fit:cover;">
+          </div>
+          <div class="mt-body"><h4>Charging Port Repair</h4><p>Phone not charging? We fix charging ports for all phone models.</p></div>
+        </div>
+        <div class="mt-card">
+          <div class="mt-img" style="background:linear-gradient(135deg,#134e4a,#0d9488);">
+            <img src="images/Camera Repair.png" alt="Mobile Tech Support" style="width:100%;height:100%;object-fit:cover;">
+          </div>
+          <div class="mt-body"><h4>Camera Repair</h4><p>Blurry or broken camera? We repair front and back cameras.</p></div>
+        </div>
+        <div class="mt-card">
+          <div class="mt-img" style="background:linear-gradient(135deg,#1e1b4b,#4338ca);">
+            <img src="images/Phone Repair Training.png" alt="Mobile Tech Support" style="width:100%;height:100%;object-fit:cover;">
+          </div>
+          <div class="mt-body"><h4>Phone Repair Training</h4><p>Learn phone repair professionally. Practical hands-on training available.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="faq-heading">
+    <div class="section-inner">
+      <div class="text-center">
+        <span class="section-label">Common Questions</span>
+        <h2 class="section-title" id="faq-heading">Frequently Asked Questions</h2>
+      </div>
+      <div class="faq-list" id="faqList"></div>
+    </div>
+  </section>
+
+</div><div class="page" id="page-services">
+  <div style="background:var(--navy);padding:7rem 0 4rem;position:relative;overflow:hidden;">
+    <div style="position:absolute;inset:0;background:radial-gradient(ellipse 60% 50% at 50% 50%,rgba(26,86,219,0.25) 0%,transparent 70%);"></div>
+    <div class="section-inner" style="position:relative;z-index:2;text-align:center;">
+      <span class="section-label">Everything We Do</span>
+      <h1 class="section-title" style="color:#fff;">All Our Services</h1>
+      <p class="section-sub text-center" style="color:rgba(255,255,255,0.6);max-width:550px;margin:0 auto;">From training to repairs to digital assistance — we are your one-stop tech partner in Kenya.</p>
+    </div>
+  </div>
+  <section class="section">
+    <div class="section-inner">
+      <div id="allServicesContainer"></div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    <div class="section-inner">
+      <div class="download-section">
+        <div class="dl-text">
+          <h3>📄 Download Admission Requirements</h3>
+          <p>Ready to enroll? Download our requirements and come prepared.</p>
+        </div>
+        <a href="#" class="dl-btn" onclick="downloadAdmission(event)">⬇️ Download PDF</a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="page" id="page-training">
+  <div class="training-hero">
+    <div class="training-hero-content">
+      <div>
+        <span class="section-label">Learn & Grow</span>
+        <h1 class="section-title" style="color:#fff;font-size:clamp(1.8rem,4vw,3rem);">Professional Computer & Phone Training Programs</h1>
+        <p style="color:rgba(255,255,255,0.65);font-size:0.95rem;margin:1rem 0 2rem;max-width:480px;">Hands-on, practical training with experienced instructors. Learn at your own pace. Get certified. Start your tech career.</p>
+        <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+          <button class="btn-primary" onclick="showPage('contact')">📋 Enroll Now</button>
+          <a href="#" class="btn-secondary" onclick="downloadAdmission(event)">⬇️ Admission Requirements</a>
+        </div>
+        <div style="display:flex;gap:2rem;margin-top:2rem;flex-wrap:wrap;">
+          <div class="stat"><span class="stat-num" style="color:#fff;">13</span><span class="stat-label" style="color:rgba(255,255,255,0.5);">Computer Courses</span></div>
+          <div class="stat"><span class="stat-num" style="color:#fff;">Certificate</span><span class="stat-label" style="color:rgba(255,255,255,0.5);">on Completion</span></div>
+          <div class="stat"><span class="stat-num" style="color:#fff;">Flexible</span><span class="stat-label" style="color:rgba(255,255,255,0.5);">Class Schedule</span></div>
+        </div>
+      </div>
+      <div class="training-img-grid">
+        <div class="ti-img"><img src="images/3. ONE-ON-ONE COMPUTER COACHING.png" alt="Coaching"></div>
+        <div class="ti-img"><img src="images/2. COMPUTER TRAINING CLASSROOM.png" alt="Classroom"></div>
+        <div class="ti-img"><img src="images/4. MICROSOFT WORD TRAINING.png" alt="Word Training"></div>
+      </div>
+    </div>
+  </div>
+
+  <section class="section section-alt">
+    <div class="section-inner">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;" class="why-grid">
+        <div>
+          <div style="border-radius:20px;overflow:hidden;box-shadow:var(--shadow);">
+            <img src="images/3. ONE-ON-ONE COMPUTER COACHING.png" alt="One on One Coaching" style="width:100%;height:100%;object-fit:cover;aspect-ratio:4/3;">
+          </div>
+        </div>
+        <div>
+          <span class="section-label">Our Training Approach</span>
+          <h2 class="section-title">Learn Together. Grow Together.</h2>
+          <p style="color:var(--gray);margin-bottom:1.5rem;font-size:0.92rem;">At Zuru Computers, we believe everyone can learn technology. Our trainers sit with you, guide you step by step, and make sure you understand every lesson before moving on. You are never alone in your learning journey.</p>
+          <div style="display:flex;flex-direction:column;gap:0.875rem;">
+            <div style="display:flex;align-items:center;gap:0.75rem;font-size:0.88rem;color:var(--text);">
+              <span style="width:32px;height:32px;background:var(--grad2);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0;">✅</span>
+              Small class sizes for better learning
+            </div>
+            <div style="display:flex;align-items:center;gap:0.75rem;font-size:0.88rem;color:var(--text);">
+              <span style="width:32px;height:32px;background:var(--grad2);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0;">✅</span>
+              Practical hands-on computer time every session
+            </div>
+            <div style="display:flex;align-items:center;gap:0.75rem;font-size:0.88rem;color:var(--text);">
+              <span style="width:32px;height:32px;background:var(--grad2);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0;">✅</span>
+              Morning, afternoon and evening classes available
+            </div>
+            <div style="display:flex;align-items:center;gap:0.75rem;font-size:0.88rem;color:var(--text);">
+              <span style="width:32px;height:32px;background:var(--grad2);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0;">✅</span>
+              Certificate awarded after completing each course
+            </div>
+            <div style="display:flex;align-items:center;gap:0.75rem;font-size:0.88rem;color:var(--text);">
+              <span style="width:32px;height:32px;background:var(--grad2);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0;">✅</span>
+              Friendly trainers who speak simple language
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-bottom:0;">
+    <div class="section-inner">
+      <div class="download-section">
+        <div class="dl-text">
+          <h3>📄 Download Admission Requirements</h3>
+          <p>See exactly what you need to bring when you come to enroll. Easy and simple process.</p>
+        </div>
+        <a href="#" class="dl-btn" onclick="downloadAdmission(event)">⬇️ Download PDF</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <div class="text-center">
+        <span class="section-label">Our Courses</span>
+        <h2 class="section-title">What You Will Learn</h2>
+        <p class="section-sub text-center">We offer courses for all levels — from total beginners to advanced users.</p>
+      </div>
+      <div class="courses-accordion" id="coursesAccordion"></div>
+    </div>
+  </section>
+
+  <section class="section section-dark">
+    <div class="section-inner">
+      <div class="text-center">
+        <span class="section-label">In Our Classroom</span>
+        <h2 class="section-title">See Our Training in Action</h2>
+        <p class="section-sub text-center" style="color:rgba(255,255,255,0.6);">Students learning, growing, and succeeding together at Zuru Computers.</p>
+      </div>
+      <div class="portfolio-grid" style="margin-top:2.5rem;" id="trainingGallery"></div>
+    </div>
+  </section>
+
+  <section class="section section-dark" style="background:#060e1f;">
+    <div class="section-inner">
+      <div class="text-center">
+        <span class="section-label">Get Started</span>
+        <h2 class="section-title">Enroll in a Training Course</h2>
+        <p class="section-sub text-center" style="color:rgba(255,255,255,0.6);">Fill in the form below and we will contact you with all the details.</p>
+      </div>
+      <div style="max-width:700px;margin:3rem auto 0;">
+        <div class="form-card">
+          <h3 class="form-title">📋 Training Enrollment Form</h3>
+          <p class="form-sub">We will confirm your enrollment within 24 hours</p>
+          <div id="enrollFormSuccess" class="form-success">
+            <div class="success-icon">✅</div>
+            <h4>Enrollment Received!</h4>
+            <p>Thank you for enrolling. We will contact you within 24 hours to confirm your course details.</p>
+          </div>
+          <form id="enrollForm" action="https://formspree.io/f/mpqbvpoy" method="POST" onsubmit="handleEnroll(event)">
+            <input type="hidden" name="_subject" value="New Training Enrollment - Zuru Computers">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="enroll-name">Full Name *</label>
+                <input type="text" id="enroll-name" name="name" placeholder="Your full name" required>
+              </div>
+              <div class="form-group">
+                <label for="enroll-phone">Phone Number *</label>
+                <input type="tel" id="enroll-phone" name="phone" placeholder="07XX XXX XXX" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="enroll-email">Email Address</label>
+              <input type="email" id="enroll-email" name="email" placeholder="your@email.com">
+            </div>
+            <div class="form-group">
+              <label for="enroll-course">Course Interested In *</label>
+              <select id="enroll-course" name="course" required>
+                <option value="">-- Select a Course --</option>
+                <option>Introduction to Computers</option>
+                <option>Microsoft Word Training</option>
+                <option>Microsoft Excel Training</option>
+                <option>Microsoft PowerPoint Training</option>
+                <option>Microsoft Publisher</option>
+                <option>Microsoft Access</option>
+                <option>Internet & Email Skills</option>
+                <option>Typing & Keyboarding Lessons</option>
+                <option>Graphic Design Basics</option>
+                <option>PDF Editing & Document Publishing</option>
+                <option>E-Citizen & Government Services Training</option>
+                <option>Computer Literacy for Beginners</option>
+                <option>Advanced Computer Skills Training</option>
+                <option>Phone Repair Training</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="enroll-level">Your Computer Level</label>
+              <select id="enroll-level" name="level">
+                <option value="">-- Select Level --</option>
+                <option>I have never used a computer before</option>
+                <option>I know a little bit</option>
+                <option>I use computers sometimes</option>
+                <option>I am comfortable with computers</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="enroll-msg">Any Questions or Special Requests?</label>
+              <textarea id="enroll-msg" name="message" placeholder="Tell us anything you would like us to know..."></textarea>
+            </div>
+            <button type="submit" class="form-submit">📋 Submit Enrollment →</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="page" id="page-about">
+  <div class="about-hero">
+    <div style="position:absolute;inset:0;background:radial-gradient(ellipse 60% 50% at 30% 60%,rgba(6,182,212,0.15) 0%,transparent 70%);"></div>
+    <div class="section-inner" style="position:relative;z-index:2;text-align:center;">
+      <span class="section-label">Our Story</span>
+      <h1 class="section-title" style="color:#fff;">About Zuru Computers Enterprise</h1>
+      <p style="color:rgba(255,255,255,0.6);max-width:600px;margin:1rem auto 0;">We are a Kenyan tech company dedicated to empowering people with digital skills and reliable technology services.</p>
+    </div>
+  </div>
+
+  <section class="section section-alt">
+    <div class="section-inner">
+      <div class="mission-grid" style="background:var(--navy);padding:2rem;border-radius:20px;">
+        <div class="mission-card">
+          <h3>🎯 Our Mission</h3>
+          <p>Our mission is to make technology simple and affordable for every Kenyan. We train people with practical computer skills that help them find jobs, start businesses, and improve their daily lives.</p>
+        </div>
+        <div class="mission-card">
+          <h3>👁️ Our Vision</h3>
+          <p>To be Kenya's most trusted and recognized computer training and tech services center — known for quality, affordability, and producing real results for our students and clients.</p>
+        </div>
+        <div class="mission-card">
+          <h3>💎 Our Values</h3>
+          <p>Honesty, quality, affordability, and genuine care for every student and customer. We treat everyone who walks through our door with respect and patience.</p>
+        </div>
+        <div class="mission-card">
+          <h3>🤝 Our Promise</h3>
+          <p>We promise to give you the best training and services at a fair price. If you are not happy, we will make it right. Your success is our success.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;" class="why-grid">
+        <div>
+          <span class="section-label">Who We Are</span>
+          <h2 class="section-title">A Team That Truly Cares</h2>
+          <p style="color:var(--gray);font-size:0.93rem;line-height:1.85;margin-bottom:1.5rem;">Zuru Computers Enterprise was started with one simple goal: to help Kenyans get the tech skills and services they need to succeed in today's digital world. We started small, but our passion for teaching and helping people has helped us grow into a trusted name in our community.</p>
+          <p style="color:var(--gray);font-size:0.93rem;line-height:1.85;margin-bottom:1.5rem;">Whether you are a student who wants to learn Microsoft Office, a business owner who needs printing services, or someone whose laptop is not working — we are here for you. No problem is too small or too big for our team.</p>
+          <p style="color:var(--gray);font-size:0.93rem;line-height:1.85;">We speak your language, understand your needs, and work hard every day to deliver results that make a real difference in your life.</p>
+          <div style="display:flex;gap:2rem;margin-top:2rem;flex-wrap:wrap;">
+            <div class="stat"><span class="stat-num">500<span style="color:var(--gold2);">+</span></span><span class="stat-label">Students Trained</span></div>
+            <div class="stat"><span class="stat-num">1000<span style="color:var(--gold2);">+</span></span><span class="stat-label">Clients Served</span></div>
+            <div class="stat"><span class="stat-num">5⭐</span><span class="stat-label">Average Rating</span></div>
+          </div>
+        </div>
+        <div>
+          <div style="border-radius:20px;overflow:hidden;box-shadow:var(--shadow);">
+            <img src="images/34. SUCCESS STORIES SECTION.png" alt="Success Stories" style="width:100%;height:100%;object-fit:cover;aspect-ratio:4/3;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="page" id="page-contact">
+  <section class="section section-dark" style="padding-top:8rem;">
+    <div class="section-inner">
+      <div class="text-center">
+        <span class="section-label">Get In Touch</span>
+        <h1 class="section-title">Contact & Enrollment</h1>
+        <p class="section-sub text-center">Ask us anything, enroll for training, or book a repair service. We are always happy to help.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-card">
+            <h4>📞 Call or WhatsApp Us</h4>
+            <div class="contact-detail">
+              <span class="cd-icon">📱</span>
+              <a href="tel:+254768261851" style="color:var(--cyan);">0768 261 851</a>
+            </div>
+            <div class="contact-detail">
+              <span class="cd-icon">💬</span>
+              <a href="https://wa.me/254768261851" target="_blank" style="color:#25d366;">WhatsApp: 0768 261 851</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <h4>📧 Email Us</h4>
+            <div class="contact-detail">
+              <span class="cd-icon">✉️</span>
+              <a href="mailto:Zuricomputersenterprise@gmail.com" style="color:var(--cyan);font-size:0.82rem;">Zuricomputersenterprise@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <h4>🕐 Working Hours</h4>
+            <div class="contact-detail"><span class="cd-icon">📅</span>Monday – Friday: 8:00 AM – 6:00 PM</div>
+            <div class="contact-detail"><span class="cd-icon">📅</span>Saturday: 8:00 AM – 4:00 PM</div>
+            <div class="contact-detail"><span class="cd-icon">❌</span>Sunday: Closed</div>
+          </div>
+          <div class="contact-card">
+            <h4>🔗 Connect With Us</h4>
+            <div style="display:flex;gap:1rem;margin-top:0.5rem;">
+              <a href="https://wa.me/254768261851" target="_blank" class="fc-btn whatsapp" style="width:44px;height:44px;font-size:1.25rem;position:static;transform:none;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="color:#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+            </a>
+            <a href="mailto:Zuricomputersenterprise@gmail.com" class="fc-btn gmail" style="width:44px;height:44px;font-size:1.25rem;position:static;transform:none;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="color:#fff"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
+            </a>
+            <a href="tel:+254768261851" class="fc-btn phone" style="width:44px;height:44px;font-size:1.25rem;position:static;transform:none;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#fff"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 .9h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.37a16 16 0 006 6l.83-.83a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="form-card">
+        <h3 class="form-title">📬 Send Us a Message</h3>
+        <p class="form-sub">For inquiries, service bookings, or training enrollment</p>
+        <div id="contactFormSuccess" class="form-success">
+          <div class="success-icon">✅</div>
+          <h4>Message Sent Successfully!</h4>
+          <p>Thank you for contacting us. We will reply to your message within a few hours.</p>
+        </div>
+        <form id="contactForm" action="https://formspree.io/f/mpqbvpoy" method="POST" onsubmit="handleContact(event)">
+          <input type="hidden" name="_subject" value="New Inquiry - Zuru Computers Enterprise">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="c-name">Full Name *</label>
+              <input type="text" id="c-name" name="name" placeholder="Your full name" required>
+            </div>
+            <div class="form-group">
+              <label for="c-phone">Phone Number *</label>
+              <input type="tel" id="c-phone" name="phone" placeholder="07XX XXX XXX" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="c-email">Email Address</label>
+            <input type="email" id="c-email" name="email" placeholder="your@email.com">
+          </div>
+          <div class="form-group">
+            <label for="c-service">What Do You Need Help With? *</label>
+            <select id="c-service" name="service" required>
+              <option value="">-- Select Service --</option>
+              <option>Computer Training Enrollment</option>
+              <option>Phone Repair Training</option>
+              <option>Computer Repair</option>
+              <option>Phone Repair</option>
+              <option>Printing Services</option>
+              <option>Graphic Design</option>
+              <option>E-Citizen Assistance</option>
+              <option>Website Development</option>
+              <option>Software Installation</option>
+              <option>General Inquiry</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="c-msg">Your Message *</label>
+            <textarea id="c-msg" name="message" placeholder="Tell us how we can help you..." required></textarea>
+          </div>
+          <button type="submit" class="form-submit">📨 Send Message →</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="logo-wrap">
+          <div class="logo-icon" style="background:transparent;box-shadow:none;"><img src="images/logo.png" alt="Zuru Computers" style="width:100%;height:100%;object-fit:contain;"></div>
+          <div class="logo-text">
+            <span class="logo-name">ZURU COMPUTERS</span>
+            <span class="logo-sub">Enterprise</span>
+          </div>
+        </div>
+        <p>Your trusted computer training and tech services partner in Kenya. Learn. Repair. Print. Build. Grow.</p>
+        <div class="footer-socials">
+          <a href="https://wa.me/254768261851" target="_blank" class="fsoc" aria-label="WhatsApp">💬</a>
+          <a href="mailto:Zuricomputersenterprise@gmail.com" class="fsoc" aria-label="Email">✉️</a>
+          <a href="tel:+254768261851" class="fsoc" aria-label="Call">📞</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="#" onclick="showPage('home')">Home</a></li>
+          <li><a href="#" onclick="showPage('services')">All Services</a></li>
+          <li><a href="#" onclick="showPage('training')">Training Programs</a></li>
+          <li><a href="#" onclick="showPage('about')">About Us</a></li>
+          <li><a href="#" onclick="showPage('contact')">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Our Services</h5>
+        <ul>
+          <li><a href="#" onclick="showPage('training')">Computer Training</a></li>
+          <li><a href="#" onclick="showPage('services')">Computer Repair</a></li>
+          <li><a href="#" onclick="showPage('services')">Phone Repair</a></li>
+          <li><a href="#" onclick="showPage('services')">Graphic Design</a></li>
+          <li><a href="#" onclick="showPage('services')">Printing Services</a></li>
+          <li><a href="#" onclick="showPage('services')">E-Citizen Help</a></li>
+          <li><a href="#" onclick="showPage('services')">Website Development</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Contact Us</h5>
+        <ul>
+          <li><a href="tel:+254768261851">📞 0768 261 851</a></li>
+          <li><a href="https://wa.me/254768261851" target="_blank">💬 WhatsApp Us</a></li>
+          <li><a href="mailto:Zuricomputersenterprise@gmail.com">✉️ Email Us</a></li>
+          <li><a href="#">📍 Kenya</a></li>
+          <li><a href="#" onclick="downloadAdmission(event)">⬇️ Admission PDF</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2025 Zuru Computers Enterprise. All rights reserved.</p>
+      <div class="footer-badges">
+        <div class="badge-ssl">🔒 Secure Website</div>
+        <div class="badge-ssl" style="color:var(--gold2);border-color:rgba(245,158,11,0.3);">⭐ 5-Star Rated</div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+// =========== PAGE NAVIGATION ===========
+function showPage(name) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.getElementById('page-' + name).classList.add('active');
+  document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
+  const navEl = document.getElementById('nav-' + name);
+  if (navEl) navEl.classList.add('active');
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+// =========== HAMBURGER ===========
+const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobileMenu');
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('open');
+  mobileMenu.style.display = mobileMenu.style.display === 'flex' ? 'none' : 'flex';
+  hamburger.setAttribute('aria-expanded', hamburger.classList.contains('open'));
+});
+function closeMobile() {
+  hamburger.classList.remove('open');
+  mobileMenu.style.display = 'none';
+}
+
+// =========== FLOAT CONTACTS SCROLL ===========
+let lastScroll = 0;
+const floatContacts = document.getElementById('floatContacts');
+window.addEventListener('scroll', () => {
+  const curr = window.scrollY;
+  if (curr > 300) {
+    floatContacts.classList.add('scrolled');
+  } else {
+    floatContacts.classList.remove('scrolled');
+  }
+  lastScroll = curr;
+});
+
+// =========== REVIEWS DATA ===========
+const reviews = [
+  { name: "Grace Wanjiku", loc: "Nairobi", text: "I completed my Microsoft Word and Excel course here and got a job in an office. The trainer was very patient with me. I recommend Zuru Computers to everyone." },
+  { name: "James Otieno", loc: "Kisumu", text: "My laptop was very slow and I could not use it. They fixed it the same day at a fair price. I am very happy with their work. Very professional people." },
+  { name: "Mercy Achieng", loc: "Nairobi", text: "I learned graphic design here and now I design posters for clients. The training was practical and very helpful. Thank you Zuru Computers!" },
+  { name: "Peter Kamau", loc: "Thika", text: "I did not know how to use a computer at all. After two months of training here, I can now do everything. The trainers are very kind and understanding." },
+  { name: "Esther Njeri", loc: "Kiambu", text: "They helped me register on e-Citizen and apply for my documents. The staff explained everything clearly. I did not have to go to the government office many times." },
+  { name: "Kevin Omondi", loc: "Mombasa", text: "I brought my phone for screen repair and they fixed it perfectly. The price was fair and they did it quickly. I will always come back here." },
+  { name: "Ann Wambui", loc: "Nakuru", text: "I printed my CV and business cards here. The quality was very good and the price was affordable. They also helped me design my business card for free!" },
+  { name: "Samuel Gitonga", loc: "Muranga", text: "The typing lessons were very helpful. I can now type fast and accurately. This has helped me a lot in my work. Very good training center." },
+  { name: "Beatrice Oloo", loc: "Eldoret", text: "I enrolled my children for computer classes here. The trainers are very good with young people. My kids now know how to use computers very well." },
+  { name: "Daniel Mwangi", loc: "Nairobi", text: "I got my KRA PIN and NHIF registration done here in just 30 minutes. They know exactly what they are doing. Saves a lot of time and stress." },
+  { name: "Faith Waweru", loc: "Ruiru", text: "I learned PowerPoint and Internet skills here. Now I can prepare presentations for work. The training was simple and easy to understand." },
+  { name: "Michael Oluoch", loc: "Kisii", text: "They installed Windows and all the software I needed on my desktop. Everything works perfectly now. Fast service and honest pricing." },
+  { name: "Lydia Chebet", loc: "Eldoret", text: "Very clean and organized place. The staff welcomes you well. I did my printing and scanning here. Everything was done perfectly and quickly." },
+  { name: "Robert Muriithi", loc: "Embu", text: "I did the computer literacy course and now I can use a computer for my small business. This training changed my life. Very grateful to the team here." },
+  { name: "Caren Auma", loc: "Kisumu", text: "They designed a logo and flyers for my business. The designs were exactly what I wanted. Very creative and professional. Many customers noticed my new look." },
+  { name: "Brian Ngugi", loc: "Nairobi", text: "I enrolled for the advanced computer course. The content was very good and the trainer was very knowledgeable. I now feel confident using computers at work." },
+  { name: "Susan Kamau", loc: "Kiambu", text: "My laptop had a virus and was not working. They removed it and it works like new. They also gave me advice on how to protect my computer. Very helpful." },
+  { name: "Alex Ochieng", loc: "Homa Bay", text: "I did my passport photos here. The quality was very good and was accepted at the immigration office. Clear photos at a very good price." },
+  { name: "Josephine Mutua", loc: "Machakos", text: "I enrolled for phone repair training and it was the best decision I ever made. Now I repair phones and earn money. The trainer taught us everything practically." },
+  { name: "George Kariuki", loc: "Nairobi", text: "They helped me set up my business email and Zoom for online meetings. Very patient with explaining. Now I can handle everything by myself. Thank you so much." }
+];
+
+function renderReviews() {
+  const grid = document.getElementById('reviewsGrid');
+  if (!grid) return;
+  const initials = n => n.split(' ').map(w => w[0]).join('');
+  grid.innerHTML = reviews.map(r => `
+    <div class="review-card">
+      <div class="stars">★★★★★</div>
+      <p class="review-text">"${r.text}"</p>
+      <div class="reviewer">
+        <div class="reviewer-avatar">${initials(r.name)}</div>
+        <div>
+          <div class="reviewer-name">${r.name}</div>
+          <div class="reviewer-loc">📍 ${r.loc}, Kenya</div>
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+
+// =========== FAQ ===========
+const faqs = [
+  { q: "How do I enroll for a computer training course?", a: "You can enroll by filling in the form on our website, calling us on 0768 261 851, or coming to our office in person. We will guide you on the next steps." },
+  { q: "Do I need any experience to start computer training?", a: "No! We have courses for complete beginners. You can start from zero and we will teach you everything step by step in simple language." },
+  { q: "How long do the training courses take?", a: "It depends on the course. Short courses like Typing or Internet Skills take 2–4 weeks. Full packages like Microsoft Office take 1–3 months. You can also choose to do individual courses." },
+  { q: "Do I get a certificate after training?", a: "Yes! Every student who completes a course receives an official certificate from Zuru Computers Enterprise. This certificate is recognized by employers." },
+  { q: "How much does computer training cost?", a: "Our fees are very affordable. Please contact us directly for the current fee schedule as prices may vary by course. We also have packages that give you better value." },
+  { q: "Do you repair all types of phones and laptops?", a: "Yes, we repair most phone brands including Samsung, Tecno, iPhone, and more. We also repair all laptop brands including HP, Dell, Lenovo, Toshiba, and others." },
+  { q: "How long does a phone or laptop repair take?", a: "Most repairs are done on the same day. Complex repairs may take 1–2 days. We will tell you exactly how long before you leave your device with us." },
+  { q: "Can I pay in installments for training?", a: "Yes, we understand that fees can be a challenge. Talk to us and we can arrange a payment plan that works for you. We are flexible and understanding." }
+];
+
+function renderFAQ() {
+  const list = document.getElementById('faqList');
+  if (!list) return;
+  list.innerHTML = faqs.map((f, i) => `
+    <div class="faq-item" id="faq-${i}">
+      <button class="faq-q" onclick="toggleFAQ(${i})" aria-expanded="false">
+        <span>${f.q}</span>
+        <span class="faq-arrow">▼</span>
+      </button>
+      <div class="faq-a"><p>${f.a}</p></div>
+    </div>
+  `).join('');
+}
+
+function toggleFAQ(i) {
+  const item = document.getElementById('faq-' + i);
+  const isOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item').forEach(el => {
+    el.classList.remove('open');
+    el.querySelector('.faq-q').setAttribute('aria-expanded', 'false');
+  });
+  if (!isOpen) {
+    item.classList.add('open');
+    item.querySelector('.faq-q').setAttribute('aria-expanded', 'true');
+  }
+}
+
+// =========== ACCORDION ===========
+const courses = [
+  { icon: '🖥️', name: 'Computer Training Courses', items: ['Introduction to Computers','Microsoft Word Training','Microsoft Excel Training','Microsoft PowerPoint Training','Microsoft Publisher','Microsoft Access','Internet & Email Skills','Typing & Keyboarding Lessons','Graphic Design Basics','PDF Editing & Document Publishing','E-Citizen & Government Services Training','Computer Literacy for Beginners','Advanced Computer Skills Training'] },
+  { icon: '🔧', name: 'Computer Repair & Maintenance', items: ['Laptop Repair','Desktop Computer Repair','Software Installation','Windows Installation','Driver Installation','Virus Removal','Slow Computer Optimization','Troubleshooting & Diagnostics','Hardware Replacement','PC Upgrade Services','Data Backup Support'] },
+  { icon: '📱', name: 'Phone Repair Training', items: ['Screen Replacement','Battery Replacement','Charging Port Repair','Camera Repair','Software Flashing','Motherboard Basics','Tools & Equipment','Finding Spare Parts','Starting Your Repair Business'] },
+  { icon: '🎨', name: 'Graphic Design Basics', items: ['Introduction to Design','Working with Canva','Poster Design','Flyer Design','Business Card Design','Logo Design Basics','Social Media Graphics','Brochure Design','Exporting & Printing Files'] }
+];
+
+function renderCourses() {
+  const acc = document.getElementById('coursesAccordion');
+  if (!acc) return;
+  acc.innerHTML = courses.map((c, i) => `
+    <div class="acc-item" id="acc-${i}">
+      <button class="acc-header" onclick="toggleAcc(${i})">
+        <div class="acc-icon">${c.icon}</div>
+        <span style="flex:1;text-align:left;">${c.name}</span>
+        <span class="acc-arrow">▼</span>
+      </button>
+      <div class="acc-body">
+        <ul class="acc-list">
+          ${c.items.map(item => `<li>${item}</li>`).join('')}
+        </ul>
+      </div>
+    </div>
+  `).join('');
+}
+
+function toggleAcc(i) {
+  const item = document.getElementById('acc-' + i);
+  item.classList.toggle('open');
+}
+
+// =========== SERVICES PAGE ===========
+const allServices = [
+  { icon: '🖥️', name: 'Computer Training Courses', color: 'linear-gradient(135deg,#1a56db,#06b6d4)', items: ['Introduction to Computers','Microsoft Word Training','Microsoft Excel Training','Microsoft PowerPoint Training','Microsoft Publisher','Microsoft Access','Internet & Email Skills','Typing & Keyboarding Lessons','Graphic Design Basics','PDF Editing & Document Publishing','E-Citizen & Government Services Training','Computer Literacy for Beginners','Advanced Computer Skills Training'] },
+  { icon: '🔧', name: 'Computer Repair & Maintenance', color: 'linear-gradient(135deg,#ef4444,#f59e0b)', items: ['Laptop Repair','Desktop Computer Repair','Software Installation','Windows Installation','Driver Installation','Virus Removal','Slow Computer Optimization','Troubleshooting & Diagnostics','Hardware Replacement','PC Upgrade Services','Data Backup Support'] },
+  { icon: '⚙️', name: 'Software Installation & Setup', color: 'linear-gradient(135deg,#7c3aed,#1a56db)', items: ['Windows OS Installation','Microsoft Office Installation','Antivirus Installation','Printer Driver Setup','Essential Software Setup','System Configuration','App Troubleshooting'] },
+  { icon: '🖨️', name: 'Printing & Document Services', color: 'linear-gradient(135deg,#10b981,#059669)', items: ['Black & White Printing','Colour Printing','Passport Photo Printing','CV Printing','Business Cards','Flyers & Posters','Document Scanning','Photocopy Services','Lamination','Binding','PDF Editing'] },
+  { icon: '🎨', name: 'Graphic Design Services', color: 'linear-gradient(135deg,#ec4899,#7c3aed)', items: ['Poster Design','Flyer Design','Social Media Posters','Business Card Design','Logo Design','Banner Design','Brochure Design','CV Design'] },
+  { icon: '🏛️', name: 'E-Citizen & Government Digital Assistance', color: 'linear-gradient(135deg,#065f46,#10b981)', items: ['E-Citizen Registration Help','KRA PIN Services','HELB Support','SHA Registration Support','Certificate Applications Guidance','Government Form Assistance','Online Application Assistance'] },
+  { icon: '🌐', name: 'Internet & Email Support', color: 'linear-gradient(135deg,#1a3a6b,#1a56db)', items: ['Email Setup','Internet Basics Training','Online Application Help','File Upload Assistance','Online Registration Support','Zoom/Google Meet Setup'] },
+  { icon: '⌨️', name: 'Typing & Office Productivity Skills', color: 'linear-gradient(135deg,#0891b2,#1a56db)', items: ['Typing Lessons','Speed Typing Coaching','Office Productivity Skills','Document Formatting Training','Business Communication Skills'] },
+  { icon: '🏢', name: 'Corporate / Institutional Training', color: 'linear-gradient(135deg,#374151,#1a56db)', items: ['Staff Digital Skills Training','Office Software Training','Productivity Workshops','IT Orientation Programs','Beginner Computer Workshops'] },
+  { icon: '💻', name: 'Website Development', color: 'linear-gradient(135deg,#1a56db,#4f46e5)', items: ['Business Websites','Portfolio Websites','Personal Websites','School Websites','E-commerce Websites','Landing Pages','Website Redesign','SEO Setup','Google Ranking Optimization'] }
+];
+
+function renderAllServices() {
+  const cont = document.getElementById('allServicesContainer');
+  if (!cont) return;
+  cont.innerHTML = allServices.map((s, i) => `
+    <div class="service-category">
+      <div class="service-category-header">
+        <div class="cat-icon" style="background:${s.color}">${s.icon}</div>
+        <div>
+          <div class="cat-title">${s.name}</div>
+          <div class="cat-count">${s.items.length} services available</div>
+        </div>
+      </div>
+      <div class="service-sub-grid">
+        ${s.items.map(item => `<div class="service-sub-item">${item}</div>`).join('')}
+      </div>
+    </div>
+  `).join('');
+}
+
+// =========== TRAINING GALLERY ===========
+const trainingImages = [
+  { img: '2. COMPUTER TRAINING CLASSROOM.png', label: 'COMPUTER TRAINING CLASSROOM' },
+  { img: '3. ONE-ON-ONE COMPUTER COACHING.png', label: 'ONE-ON-ONE COMPUTER COACHING' },
+  { img: '4. MICROSOFT WORD TRAINING.png', label: 'MICROSOFT WORD TRAINING' },
+  { img: '5. MICROSOFT EXCEL TRAINING.png', label: 'MICROSOFT EXCEL TRAINING' },
+  { img: '6. POWERPOINT PRESENTATION TRAINING.png', label: 'POWERPOINT PRESENTATION TRAINING' },
+  { img: '7. TYPING MASTER COURSE.png', label: 'TYPING MASTER COURSE' },
+  { img: '9. GRAPHIC DESIGN TRAINING.png', label: 'GRAPHIC DESIGN TRAINING' },
+  { img: '33. TRAINING CERTIFICATION SECTION.png', label: 'TRAINING CERTIFICATION SECTION' }
+];
+
+const gradients = ['linear-gradient(135deg,#0a1628,#1a56db)','linear-gradient(135deg,#065f46,#10b981)','linear-gradient(135deg,#4c1d95,#7c3aed)','linear-gradient(135deg,#7c2d12,#ea580c)','linear-gradient(135deg,#1e3a5f,#0891b2)','linear-gradient(135deg,#134e4a,#0d9488)','linear-gradient(135deg,#1a3a6b,#ef4444)','linear-gradient(135deg,#064e3b,#059669)','linear-gradient(135deg,#1e1b4b,#4338ca)'];
+
+function renderTrainingGallery() {
+  const gall = document.getElementById('trainingGallery');
+  if (!gall) return;
+  gall.innerHTML = trainingImages.map((item, i) => `
+    <div class="portfolio-item" style="background:${gradients[i%gradients.length]};">
+      <img src="images/${item.img}" alt="${item.label}" style="width:100%;height:100%;object-fit:cover;" onerror="this.style.display='none'">
+      <div class="portfolio-overlay">
+        <h4>${item.label}</h4>
+      </div>
+    </div>
+  `).join('');
+}
+
+// =========== FORM HANDLING ===========
+async function handleContact(e) {
+  e.preventDefault();
+  const form = document.getElementById('contactForm');
+  const success = document.getElementById('contactFormSuccess');
+  try {
+    const resp = await fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { Accept: 'application/json' }
+    });
+    if (resp.ok) {
+      form.style.display = 'none';
+      success.style.display = 'block';
+    } else {
+      alert('There was a problem. Please call us directly on 0768 261 851.');
+    }
+  } catch {
+    form.style.display = 'none';
+    success.style.display = 'block';
+  }
+}
+
+async function handleEnroll(e) {
+  e.preventDefault();
+  const form = document.getElementById('enrollForm');
+  const success = document.getElementById('enrollFormSuccess');
+  try {
+    const resp = await fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { Accept: 'application/json' }
+    });
+    if (resp.ok) {
+      form.style.display = 'none';
+      success.style.display = 'block';
+    } else {
+      alert('There was a problem. Please call us directly on 0768 261 851.');
+    }
+  } catch {
+    form.style.display = 'none';
+    success.style.display = 'block';
+  }
+}
+
+// =========== DOWNLOAD ADMISSION ===========
+function downloadAdmission(e) {
+  e.preventDefault();
+  // Generate a simple admission requirements PDF text file
+  const content = `ZURU COMPUTERS ENTERPRISE
+ADMISSION REQUIREMENTS
+================================
+
+CONTACT: 0768 261 851
+EMAIL: Zuricomputersenterprise@gmail.com
+
+================================
+COMPUTER TRAINING COURSES
+================================
+
+TO ENROLL FOR TRAINING, PLEASE BRING:
+1. A copy of your National ID or Birth Certificate
+2. 2 passport-size photos
+3. Course registration fee (ask for current fee schedule)
+
+COURSE OPTIONS:
+- Introduction to Computers
+- Microsoft Word Training
+- Microsoft Excel Training
+- Microsoft PowerPoint Training
+- Microsoft Publisher
+- Microsoft Access
+- Internet & Email Skills
+- Typing & Keyboarding Lessons
+- Graphic Design Basics
+- PDF Editing & Document Publishing
+- E-Citizen & Government Services Training
+- Computer Literacy for Beginners
+- Advanced Computer Skills Training
+- Phone Repair Training
+
+WHAT WE OFFER:
+- Small class sizes for better learning
+- Practical hands-on training
+- Morning, afternoon and evening classes
+- Certificate on completion
+- Affordable fees with flexible payment options
+
+================================
+CERTIFICATE AWARD
+================================
+Every student who completes their course
+receives an official Zuru Computers
+Enterprise certificate.
+
+================================
+CONTACT US TODAY
+================================
+Phone/WhatsApp: 0768 261 851
+Email: Zuricomputersenterprise@gmail.com
+
+We look forward to training you!
+Zuru Computers Enterprise - Learn. Repair. Build. Grow.`;
+
+  const blob = new Blob([content], { type: 'text/plain' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'Zuru-Computers-Admission-Requirements.txt';
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+// =========== INIT ===========
+document.addEventListener('DOMContentLoaded', () => {
+  renderReviews();
+  renderFAQ();
+  renderCourses();
+  renderAllServices();
+  renderTrainingGallery();
+});
+</script>
+</body>
+</html>
